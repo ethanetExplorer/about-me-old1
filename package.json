@@ -1,6 +1,6 @@
 {
   "name": "mywebsite",
-  "homepage": "ethanetexplorer.github.io",
+  "homepage": "https://ethanetexplorer.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
