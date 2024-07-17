@@ -1,0 +1,161 @@
+/* contact.css */
+.contacts-container {
+  display: flex;
+}
+.contact-item {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  transition-duration: 0.25s;
+}
+.contact-item img {
+  width: 28px;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 8px;
+  background-color: #f1ede820;
+}
+
+.contact-item p {
+  opacity: 0;
+  font-size: 0px;
+  transition-duration: 0.25s;
+}
+
+.contact-item:hover {
+  opacity: 0.5;
+}
+
+/* .contact-item:hover p {
+  opacity: 1;
+  margin-left: 4px;
+  font-size: 12px;
+} */
+
+/* projects.css */
+
+.projects-container-container {
+  margin-left: 4px;
+}
+.project-section-desc {
+  opacity: 0.75;
+}
+.projects-list {
+  display: flex;
+  margin-bottom: 32px;
+}
+.project-item {
+  position: relative;
+  background-color: #f1ede810;
+  border-radius: 12px;
+  max-width: 360px;
+  margin-right: 18px;
+}
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -32px;
+}
+.project-header h3 {
+  margin-top: 8px;
+  color: #c9b196;
+  font-size: 22px;
+  padding-left: 12px;
+}
+.project-meta {
+  margin-top: -4px;
+  display: flex;
+}
+.project-meta p {
+  padding-top: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.project-date {
+  opacity: 0.5;
+  margin-right: 8px;
+}
+.project-item p {
+  padding-left: 12px;
+}
+
+.project-item img {
+  width: 32px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+  transition-duration: 0.5s;
+}
+.project-item img:hover {
+  opacity: 0.5;
+}
+
+.more-projects {
+  text-decoration: none;
+  background-color: #f1ede808;
+  border-radius: 12px;
+  width: 180px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  flex-direction: column;
+  transition-duration: 0.3s;
+}
+
+.more-projects:hover {
+  opacity: 0.5;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.more-projects-title {
+  color: #f1ede8;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.more-projects-icon {
+  width: 40px;
+}
+.more-projects-desc {
+  text-decoration: none;
+  color: #f1ede8;
+  text-align: center;
+}
+.download-icon {
+  filter: invert(66%) sepia(9%) saturate(2705%) hue-rotate(173deg)
+    brightness(87%) contrast(82%);
+}
+
+/* experience.css */
+.experience-row {
+  display: flex;
+}
+
+.experience-item {
+  width: 360px;
+  padding: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  background-color: #f1ede810;
+  border-radius: 12px;
+}
+
+.experience-item p {
+  font-weight: 200;
+}
+
+.experience-item h3 {
+  margin-top: -2px;
+  color: #c9b196;
+}
+
+.experience-date {
+  margin-top: -12px;
+  opacity: 0.5;
+}
+
+.experience-CCA,
+.experience-comps {
+  display: flex;
+}
